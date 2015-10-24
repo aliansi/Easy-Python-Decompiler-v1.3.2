@@ -1,0 +1,44 @@
+CHANGELOG
+
+v1.3.2 (20-September-2015)
+----------------------------------------------------------
+Minor GUI tweaks
+Updated decompyle++ to github commit 6883a7ecf0
+Dynamically linked to Qt libraries
+
+
+v1.3.1a (31-January-2015)
+----------------------------------------------------------
+Added logging to file support
+Fixed a memory leak in threading
+
+
+v1.3a (29-January-2015)
+----------------------------------------------------------
+Added support for python 3.4 (In alpha stage, crash prone)
+Added support for recursion into sub-directories for directory decompiling
+
+
+v1.2 (31-March-2014)
+------------------------------
+Fixed crashes when decompiling certain files with decompyle++
+Added automatic decompiler selection
+Added drag and drop support (You can now drop a pyc/pyo file to decompile)
+
+
+v1.1 (27-Jan-2014)
+------------------------------
+Python versions 1.0 to 3.3 are supported
+Added a native decompiler engine (supports unicode filename)
+
+
+v1.01 (26-Jan-2014)
+------------------------------
+Fixed a decompiler bug when decompiling python 2.5 & 2.6
+Added a test suite
+
+
+v1.0 (25-Jan-2014)
+------------------------------
+First Release
+Python version 2.5, 2.6, & 2.7 are supported.
